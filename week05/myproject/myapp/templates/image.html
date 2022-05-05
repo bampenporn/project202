@@ -1,0 +1,10 @@
+<div class="row wow fadeIn">
+        
+    {% for img in image_gallery %}
+      
+    <div class="col-lg-4 col-md-12 mb-4">
+      
+      <img src="{{img.image.url}}"  height="450" class="img-fluid" alt="">
+      
+    </div>
+    {% endfor %}
